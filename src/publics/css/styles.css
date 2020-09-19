@@ -1,0 +1,79 @@
+@font-face{
+    font-family: 'Minecraft';
+    src: url('/fonts/MinecraftRegular-Bmg3.otf') format("truetype");
+    src: url('/fonts/MinecraftBold-nMK1.otf') format("truetype");
+    src: url('/fonts/MinecraftBold-nMK1.woff') format('woff')
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-main{
+    background: #00F260;
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260); 
+    background: linear-gradient(to right, #0575E6, #00F260); 
+}
+
+.nav-menu{
+    display: inline-flex;
+    padding: 10px;
+}
+
+.nav-menu li{
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#index{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.header{
+    background-image: url(https://i.redd.it/ptwwkh67l6j41.png);
+}
+
+.text-header{
+    padding: 20px;
+}
+
+.text-header h1{
+    font-family: 'Minecraft';
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.text-header p{
+    display: block;
+    margin: auto;
+    width: fit-content;
+    cursor: default;
+    color: #fff;
+    text-decoration: underline;
+    background: #00F260;
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260); 
+    background: linear-gradient(to right, #0575E6, #00F260); 
+    border-radius: 5px 5px 20px 20px;
+    padding: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.waves{
+    padding-top: 120px;
+}

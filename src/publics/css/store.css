@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Minecraft";
+  src: url("/fonts/MinecraftRegular-Bmg3.otf") format("truetype");
+  src: url("/fonts/MinecraftBold-nMK1.otf") format("truetype");
+  src: url("/fonts/MinecraftBold-nMK1.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-main {
+  background: #00f260;
+  background: -webkit-linear-gradient(to right, #0575e6, #00f260);
+  background: linear-gradient(to right, #0575e6, #00f260);
+}
+
+.nav-menu {
+  display: inline-flex;
+  padding: 10px;
+}
+
+.nav-menu li {
+  list-style: none;
+  padding: 10px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#index {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.header {
+  background-image: url(https://i.redd.it/ptwwkh67l6j41.png);
+}
+
+.text-header {
+  padding: 20px;
+}
+
+.text-header h1 {
+  font-family: "Minecraft";
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.content {
+  padding: 40px;
+  width: fit-content;
+  display: block;
+  margin: auto;
+  align-items: center;
+  display: flex;
+}
+
+.vip-card {
+  display: block;
+  width: 400px;
+  margin: auto;
+  box-shadow: 5px 5px 10px #dbdbdb;
+  border-radius: 10px;
+}
+
+.vip-card img {
+  padding: 20px;
+  display: block;
+  margin: auto;
+}
+
+.vip-card h2 {
+  padding: 10px;
+}
+
+.vip-card a {
+  display: block;
+  border-radius: 0px 0px 10px 10px;
+  margin: auto;
+  text-decoration: none;
+  color: #fff;
+  background: #00f260;
+  background: -webkit-linear-gradient(to right, #0575e6, #00f260);
+  background: linear-gradient(to right, #0575e6, #00f260);
+  padding: 10px;
+}
+
+.donate {
+  padding: 40px;
+}
+
+.donate-button {
+  transition: all .5s ease-in-out;
+  font-size: 20px;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  width: fit-content;
+  color: #fff;
+  background: linear-gradient(to right, #0575e6, #00f260);
+}
+
+.donate-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.donate-button:hover{
+    border-radius: 30px;
+}

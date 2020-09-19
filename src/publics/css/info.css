@@ -1,0 +1,123 @@
+@font-face{
+    font-family: 'Minecraft';
+    src: url('/fonts/MinecraftRegular-Bmg3.otf') format("truetype");
+    src: url('/fonts/MinecraftBold-nMK1.otf') format("truetype");
+    src: url('/fonts/MinecraftBold-nMK1.woff') format('woff')
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-main{
+    background: #00F260;
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260); 
+    background: linear-gradient(to right, #0575E6, #00F260); 
+}
+
+.nav-menu{
+    display: inline-flex;
+    padding: 10px;
+}
+
+.nav-menu li{
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#index{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.header{
+    background-image: url(https://i.redd.it/ptwwkh67l6j41.png);
+}
+
+.text-header{
+    padding: 20px;
+}
+
+.text-header h1{
+    font-family: 'Minecraft';
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.content h2{
+    padding: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.content p{
+    text-align: center;
+    padding: 20px;
+}
+
+.jobs {
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    background: white;
+    background-clip: padding-box;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+}
+
+
+.jobs::after{
+
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+    background: linear-gradient(#0575E6, #00F260);
+    content: '';
+    z-index: -1;
+    border-radius: 16px;
+
+}
+
+.jobs h2{
+    border-bottom: 3px solid transparent;
+    border-image-source: linear-gradient(to right, #0575E6, #00F260);
+    border-image-slice: 20;
+}
+
+hr{
+    margin: 20px;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.footer a{
+    width: fit-content;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px 5px 20px 20px;
+    display: block;
+    margin: auto;
+    background: #00F260;
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260); 
+    background: linear-gradient(to right, #0575E6, #00F260); 
+    margin-bottom: 20px;
+}
